@@ -1,0 +1,25 @@
+# Node dependencies and build output
+node_modules/
+dist/
+
+# Tauri generated build artifacts
+src-tauri/target/
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+*.log
+*.tsbuildinfo
+.DS_Store
+Thumbs.db
+
+# Temporary test and release artifacts
+.scrollbar-visual-test/
+.remove-ui-test/
+test-output/
+*.exe
+*.msi
+*.zip
+
+src-tauri/gen/schemas/
